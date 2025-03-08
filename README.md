@@ -1,5 +1,6 @@
-![Obrázek Gameplaye](https://github.com/Jak0ub/PyGame/blob/main/img/1.png)
-![Obrázek Obrazovky Prohry](https://github.com/Jak0ub/PyGame/blob/main/img/2.png)
+<img src="https://github.com/Jak0ub/PyGame/blob/main/img/1.png" width=30% height=30% >
+<img src="https://github.com/Jak0ub/PyGame/blob/main/img/2.png" width=30% height=30% >
+
 ## SHA-256
 ```SHA-256
 EF4CEA1AEC7CFD42E0CEFC98DD7A1340DF3987B7A0066E252C6871835C87CFF9
