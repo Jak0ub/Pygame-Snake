@@ -1,1 +1,1 @@
-# PyGame Project For School
+# PyGame školní projekt
