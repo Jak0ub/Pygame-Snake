@@ -1,5 +1,8 @@
-<img src="https://github.com/Jak0ub/PyGame/blob/main/img/1.png" width=30% height=30% >
-<img src="https://github.com/Jak0ub/PyGame/blob/main/img/2.png" width=30% height=30% >
+<div style="display: flex; gap: 10px;">
+    <img src="https://github.com/Jak0ub/PyGame/blob/main/img/1.png" width="40%" height="40%">
+    <img src="https://github.com/Jak0ub/PyGame/blob/main/img/2.png" width="40%" height="40%">
+</div>
+
 
 ## SHA-256
 ```SHA-256
