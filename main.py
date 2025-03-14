@@ -224,8 +224,8 @@ while run:
     if nove_jidlo == True:
         nove_jidlo = False
         if obtiznost == obtiznosti[0]: #Neboli pokud se rovná zvolená obtížnost první obtížnosti v listu(easy)
-            jidlo[0] = velikost_blocku * random.randint(1, round(šířka_okna / velikost_blocku) - 1) #Generování náhodného čísla reprezentující pozici x, pro block jídla, který nebude na okraji obrazovky
-            jidlo[1] = velikost_blocku * random.randint(1, round(výška_okna / velikost_blocku) - 1) #Generování náhodného čísla reprezentující pozici y, pro block jídla, který nebude na okraji obrazovky
+            jidlo[0] = velikost_blocku * random.randint(2, round(šířka_okna / velikost_blocku) - 2) #Generování náhodného čísla reprezentující pozici x, pro block jídla, který nebude na okraji obrazovky
+            jidlo[1] = velikost_blocku * random.randint(2, round(výška_okna / velikost_blocku) - 2) #Generování náhodného čísla reprezentující pozici y, pro block jídla, který nebude na okraji obrazovky
         elif obtiznost == obtiznosti[1]: #medium obtížnost
             nahodne = random.randint(0, 1)
             if nahodne == 1: #jídlo bude na okraji
@@ -237,8 +237,8 @@ while run:
                     jidlo[0] = 0
                     jidlo[1] = velikost_blocku * random.randint(0, round(výška_okna / velikost_blocku) - 1) #Generování náhodného čísla reprezentující pozici y, pro block jídla
             else: #jídlo nebude na okraji
-                jidlo[0] = velikost_blocku * random.randint(1, round(šířka_okna / velikost_blocku) - 1) #Generování náhodného čísla reprezentující pozici x, pro block jídla
-                jidlo[1] = velikost_blocku * random.randint(1, round(výška_okna / velikost_blocku) - 1) #Generování náhodného čísla reprezentující pozici y, pro block jídla
+                jidlo[0] = velikost_blocku * random.randint(2, round(šířka_okna / velikost_blocku) - 2) #Generování náhodného čísla reprezentující pozici x, pro block jídla
+                jidlo[1] = velikost_blocku * random.randint(2, round(výška_okna / velikost_blocku) - 2) #Generování náhodného čísla reprezentující pozici y, pro block jídla
         elif obtiznost == obtiznosti[2]: #hard obtížnost, neboli jídlo je vždy na okraji obrazovky
                 osa = random.choice(["x", "y"])
                 if osa == "y":
