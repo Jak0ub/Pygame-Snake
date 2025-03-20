@@ -14,6 +14,8 @@ C7B9C2FB94547BD4D2964A332D1258BFEA06A749AD741F1E75115F47B76C3DDA
 
 `!` `19.03.25` `Nyní je možnost zastavit zobrazování se okna programu cmd.exe po každém zapnutí programu užitím donotshowup.vbs souboru fungujicího na Windows systémech. Více níže...`
 
+`!` `20.03.25` `Nyní je ve hře ukládání nejlepšího skóre pro každou obtížnost. Také je nově ve hře možnost nápovědy + drobné úpravy`
+
 <div style="display: flex; gap: 10px;">
     <img src="https://github.com/Jak0ub/PyGame/blob/main/img/1.png" width="30%" height="40%">
     <img src="https://github.com/Jak0ub/PyGame/blob/main/img/2.png" width="30%" height="40%">
