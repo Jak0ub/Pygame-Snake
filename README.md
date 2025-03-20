@@ -19,7 +19,10 @@ C7B9C2FB94547BD4D2964A332D1258BFEA06A749AD741F1E75115F47B76C3DDA
 <div style="display: flex; gap: 10px;">
     <img src="https://github.com/Jak0ub/PyGame/blob/main/img/1.png" width="30%" height="40%">
     <img src="https://github.com/Jak0ub/PyGame/blob/main/img/2.png" width="30%" height="40%">
+</div>
+<div style="display: flex; gap: 10px;">
     <img src="https://github.com/Jak0ub/PyGame/blob/main/img/3.png" width="30%" height="40%">
+    <img src="https://github.com/Jak0ub/PyGame/blob/main/img/4.png" width="30%" height="40%">
 </div>
 
 ## Obtížnosti
