@@ -1,8 +1,15 @@
+## Úvod
+* Jedná se o snake hru naprogramovanou pomocí knihovny Pygame v jazyce Python, za účelem školního projektu.
+* Hra obsahuje možnost zvolení obtížnosti(více k obtížnostem níže), obsahuje možnost nápovědy, zobrazení a vynulování hodnot skóre dosažených uživatelem 
+
 
 ## SHA-256
 ```SHA-256
 C7B9C2FB94547BD4D2964A332D1258BFEA06A749AD741F1E75115F47B76C3DDA
 ```
+
+> ⚠️ **Pozor:**
+> Program může obsahovat chyby, pokud nějaké naleznete, prosím kontaktujte mě.
 
 ## Changelog
 
@@ -24,6 +31,8 @@ C7B9C2FB94547BD4D2964A332D1258BFEA06A749AD741F1E75115F47B76C3DDA
     <img src="https://github.com/Jak0ub/PyGame/blob/main/img/3.png" width="30%" height="40%">
     <img src="https://github.com/Jak0ub/PyGame/blob/main/img/4.png" width="30%" height="40%">
 </div>
+
+`Kompatibilní s Unix a Windows based systémy`
 
 ## Obtížnosti
 
