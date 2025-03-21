@@ -388,22 +388,36 @@ while run:
             nahodne = random.randint(0, 1)
             if nahodne == 1: #jídlo bude na okraji
                 osa = random.choice(["x", "y"])
+                strana = random.randint(0,1)
                 if osa == "y":
                     jidlo[0] = velikost_blocku * random.randint(0, round(šířka_okna / velikost_blocku) - 1) #Generování náhodného čísla reprezentující pozici x, pro block jídla
-                    jidlo[1] = 0
+                    if strana == 1:
+                        jidlo[1] = 0
+                    else:
+                        jidlo[1] = výška_okna - velikost_blocku
                 elif osa == "x":
-                    jidlo[0] = 0
+                    if strana == 1:
+                        jidlo[0] = 0
+                    else:
+                        jidlo[0] = šířka_okna - velikost_blocku
                     jidlo[1] = velikost_blocku * random.randint(0, round(výška_okna / velikost_blocku) - 1) #Generování náhodného čísla reprezentující pozici y, pro block jídla
             else: #jídlo nebude na okraji
                 jidlo[0] = velikost_blocku * random.randint(2, round(šířka_okna / velikost_blocku) - 2) #Generování náhodného čísla reprezentující pozici x, pro block jídla
                 jidlo[1] = velikost_blocku * random.randint(2, round(výška_okna / velikost_blocku) - 2) #Generování náhodného čísla reprezentující pozici y, pro block jídla
         elif obtiznost == obtiznosti[2]: #hard obtížnost, neboli jídlo je vždy na okraji obrazovky
                 osa = random.choice(["x", "y"])
+                strana = random.randint(0,1)
                 if osa == "y":
                     jidlo[0] = velikost_blocku * random.randint(0, round(šířka_okna / velikost_blocku) - 1) #Generování náhodného čísla reprezentující pozici x, pro block jídla
-                    jidlo[1] = 0
+                    if strana == 1:
+                        jidlo[1] = 0
+                    else:
+                        jidlo[1] = výška_okna - velikost_blocku
                 elif osa == "x":
-                    jidlo[0] = 0
+                    if strana == 1:
+                        jidlo[0] = 0
+                    else:
+                        jidlo[0] = šířka_okna - velikost_blocku
                     jidlo[1] = velikost_blocku * random.randint(0, round(výška_okna / velikost_blocku) - 1) #Generování náhodného čísla reprezentující pozici y, pro block jídla
     #Vykreslní jídla
     pygame.draw.rect(okno, barva_jidla, (jidlo[0], jidlo[1], velikost_blocku, velikost_blocku))
