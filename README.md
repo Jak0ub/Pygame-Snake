@@ -3,6 +3,8 @@
 * Hra je rozdělena do vícero souborů pro snažší čitelnost
 * Hra obsahuje možnost zvolení obtížnosti(více k obtížnostem níže), obsahuje možnost nápovědy, zobrazení a vynulování hodnot skóre dosažených uživatelem 
 
+> ℹ️ **Info:**
+> Hra se spouští pomocí souboru `snake-game.py`
 
 > ⚠️ **Pozor:**
 > Program může obsahovat chyby, pokud nějaké naleznete, prosím kontaktujte mě.
