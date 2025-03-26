@@ -3,11 +3,6 @@
 * Hra obsahuje možnost zvolení obtížnosti(více k obtížnostem níže), obsahuje možnost nápovědy, zobrazení a vynulování hodnot skóre dosažených uživatelem 
 
 
-## Integrita(Sha256)
-```SHA-256
-A74BB3B2B8D47E49E16E706F1C441C424C1652483DE5F7AC2D8DEBBDF36AB4AA
-```
-
 > ⚠️ **Pozor:**
 > Program může obsahovat chyby, pokud nějaké naleznete, prosím kontaktujte mě.
 
