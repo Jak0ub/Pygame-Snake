@@ -1,5 +1,6 @@
 ## Úvod
 * Jedná se o snake hru naprogramovanou pomocí knihovny Pygame v jazyce Python, za účelem školního projektu.
+* Hra je rozdělena do vícero souborů pro snažší čitelnost
 * Hra obsahuje možnost zvolení obtížnosti(více k obtížnostem níže), obsahuje možnost nápovědy, zobrazení a vynulování hodnot skóre dosažených uživatelem 
 
 
