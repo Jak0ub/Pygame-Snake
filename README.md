@@ -3,7 +3,7 @@
 * Hra obsahuje možnost zvolení obtížnosti(více k obtížnostem níže), obsahuje možnost nápovědy, zobrazení a vynulování hodnot skóre dosažených uživatelem 
 
 
-## SHA-256
+## Integrita(Sha256)
 ```SHA-256
 A74BB3B2B8D47E49E16E706F1C441C424C1652483DE5F7AC2D8DEBBDF36AB4AA
 ```
@@ -24,6 +24,8 @@ A74BB3B2B8D47E49E16E706F1C441C424C1652483DE5F7AC2D8DEBBDF36AB4AA
 `!` `20.03.25` `Nyní je ve hře ukládání nejlepšího skóre pro každou obtížnost. Také je nově ve hře možnost nápovědy + drobné úpravy`
 
 `!` `21.03.25` `Drobné úpravy`
+
+`!` `26.03.25` `Rozdělení do vícero souborů za účelem snažší čitelnosti + zlepšení komentářů`
 
 <div style="display: flex; gap: 10px;">
     <img src="https://github.com/Jak0ub/PyGame/blob/main/img/1.png" width="30%" height="40%">
