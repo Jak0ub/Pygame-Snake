@@ -5,6 +5,7 @@ from packages import funkce
 import random
 import time
 import platform
+import os
 #Nastavení cesty, kam se bude ukládat soubor s nejvyšším skórem
 platform_system = platform.system()
 if platform_system == "Windows":
