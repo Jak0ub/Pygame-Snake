@@ -25,6 +25,8 @@
 
 `!` `26.03.25` `Rozdělení do vícero souborů za účelem snažší čitelnosti + zlepšení komentářů`
 
+`!` `30.03.25` `Drobné úpravy`
+
 <div style="display: flex; gap: 10px;">
     <img src="https://github.com/Jak0ub/PyGame/blob/main/img/1.png" width="30%" height="40%">
     <img src="https://github.com/Jak0ub/PyGame/blob/main/img/2.png" width="30%" height="40%">
