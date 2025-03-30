@@ -12,6 +12,7 @@ def choice(šířka_okna,výška_okna,velikost_blocku,okno,bg,font,font_mensi,fp
     reset = [šířka_okna // 1.5, (výška_okna // 3) - velikost_blocku * 3] #Souřadnice blocku reprezentující Možnost resetu hodnot skóre
     popis = [šířka_okna - velikost_blocku * 4, (výška_okna // 3) * 2 + velikost_blocku * 3] #Souřadnice blocku reprezentující Popisky blocků
     #Proměnné
+    neměnit_směr = False
     timeout = 0
     zobraz_skore = False
     run = True
@@ -35,7 +36,7 @@ def choice(šířka_okna,výška_okna,velikost_blocku,okno,bg,font,font_mensi,fp
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 run = False
-            elif event.type == pygame.KEYDOWN and stisk == 0:
+            elif event.type == pygame.KEYDOWN and stisk == 0 and neměnit_směr == False:
                 if event.key == pygame.K_w and směr != 3:#Pokud stiskneme W a proměnná směr není 3, což by znamenalo že had se pohybuje směrem dolu, tak se změní proměnná směr na 1, což znamená, že pojede nahoru
                     směr = 1
                 if event.key == pygame.K_d and směr != 4:#Pokud stiskneme D a proměnná směr není 4, což by znamenalo že had se pohybuje směrem doleva, tak se změní proměnná směr na 2, což znamená, že pojede doprava
@@ -130,6 +131,7 @@ def choice(šířka_okna,výška_okna,velikost_blocku,okno,bg,font,font_mensi,fp
             stisk = 0
         if konec_hry == False:
             if aktualizuj == True:
+                neměnit_směr = False
                 #Posunutí hada o jeden block směrem, kterým hledí
                 aktualizuj = False
                 pozice_hada = pozice_hada[-1:] + pozice_hada[:-1]
@@ -147,6 +149,7 @@ def choice(šířka_okna,výška_okna,velikost_blocku,okno,bg,font,font_mensi,fp
                     pozice_hada[0][0] = pozice_hada[1][0] - velikost_blocku
                 konec_hry = funkce.kontrola_konce_hry(konec_hry, pozice_hada,šířka_okna,výška_okna,velikost_blocku)
         else:
+            neměnit_směr = True
             #Efekt, umožňující průchozí strany okna
             if pozice_hada[0][0] > šířka_okna + velikost_blocku * 3:
                 pozice_hada = [[0, pozice_hada[0][1]]]
